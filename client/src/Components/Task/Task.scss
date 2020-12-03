@@ -1,0 +1,85 @@
+.incomplete{
+    flex: 0 0 20%;
+    background-color: rgb(21, 200, 255);
+    width :25%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(247, 19, 3);
+    margin: 10px;
+    margin-left: 5%;
+}
+.progress{
+    flex: 0 0 20%;
+    background-color: rgb(196, 228, 82);
+    width :25%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(247, 19, 3);
+    margin: 10px;
+    margin-left: 5%;
+}
+.complete{
+    flex: 0 0 20%;
+    background-color: rgb(0, 255, 115);
+    width :25%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid rgb(247, 19, 3);
+    margin: 10px;
+    margin-left: 5%;
+}
+.edit{
+    float: left;
+    margin-left: 20px;
+    width:20%;
+    padding: 5px;
+    background-color: steelblue;
+    color: white;
+    font-weight: 10000;
+    font-family: cursive;
+}
+.delete{
+    float: right;
+    margin-right: 20px;
+    width:20%;
+    padding: 5px;
+    background-color: crimson;
+    color: white;
+    font-weight: 10000;
+    font-family: cursive;
+}
+.edit:hover{
+    float: left;
+    margin-left: 20px;
+    width:21%;
+    padding: 5px;
+    background-color: rgb(60, 255, 53);
+    color: white;
+    font-weight: 10000;
+    font-family: cursive;
+
+    transition: all 500ms ease-in-out;
+}
+.delete:hover{
+    float: right;
+    margin-right: 20px;
+    width:21%;
+    padding: 5px;
+    background-color: rgb(243, 243, 243);
+    color: rgb(235, 17, 17);
+    font-weight: 10000;
+    font-family: cursive;
+
+    transition: all 500ms ease-in-out;
+}
+
+.priority{
+
+    height: auto;
+    width:auto;
+    float:right;
+    color: red;
+    background-color: yellow;
+    font-weight: 1000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

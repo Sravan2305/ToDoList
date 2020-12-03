@@ -1,0 +1,37 @@
+.present{
+  margin-top: 150px;
+  margin-left: 30%;
+  height: 300px;
+  width: 40%;
+  background-color: aliceblue;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.date{
+  font-size: 30pt;
+  font-weight: 20000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkblue;
+}
+.heading
+{
+  color:  crimson;
+}
+.heading:hover{
+ color: hotpink;
+  transition: all ease-in-out 600ms;
+}
+.time{
+  font-family: cursive;
+  font-style: italic;
+  color: steelblue;
+}
+.date:hover{
+  color: rgb(120, 171, 236);
+   transition: all ease-in-out 600ms;
+ }
+ .time:hover{
+  color: rgb(77, 207, 224);
+   transition: all ease-in-out 600ms;
+ }

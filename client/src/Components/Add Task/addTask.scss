@@ -1,0 +1,34 @@
+.main{
+    margin: 150px 0px 0px 40%;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(208, 255, 231, 0.952);
+    padding-left: 30px;
+    padding-top: 20px;
+    height: 300px;
+    border-radius: 3px;
+}
+.main table td{
+    padding: 10px;
+    color: rgb(42, 6, 247);
+    font-weight: 10000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.submit{
+    margin: 10px 10px 0px 0px;
+
+}
+.invalid{
+    color: red;
+    display:none;
+
+}
+.table{
+    text-align: center;
+}
+input{
+    padding: 7px;
+    width:auto;
+    border: 3px solid gold;
+    border-radius: 3px;
+}
